@@ -1,0 +1,18 @@
+diff -ur orbited-0.7.11beta3/orbited/_version.py orbited-0.7.11beta3-new/orbited/_version.py
+--- a/orbited/_version.py	2011-08-26 16:41:58.000000000 +0000
++++ b/orbited/_version.py	2011-08-26 16:41:42.000000000 +0000
+@@ -1 +1 @@
+-__version__ = "0.7.11beta3"
++__version__ = "0.7.11"
+diff -ur orbited-0.7.11beta3/setup.py orbited-0.7.11beta3-new/setup.py
+--- a/setup.py	2011-01-19 14:50:12.000000000 +0000
++++ b/setup.py	2011-08-26 16:42:18.000000000 +0000
+@@ -20,7 +20,7 @@
+ 
+ try:
+     setup(
+-        name = 'orbited',
++        name = 'python26-orbited',
+         version = VERSION,
+         author = 'Michael Carter',
+         author_email = 'CarterMichael@gmail.com',

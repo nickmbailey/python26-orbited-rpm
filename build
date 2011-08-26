@@ -4,9 +4,9 @@ CUR_DIR=`dirname $0`
 CUR_DIR=`pwd $CUR_DIR`
 cd $CUR_DIR
 
-ORIG_NAME="orbited-0.7.10/"
+ORIG_NAME="orbited-0.7.11beta3/"
 NAME="python26-orbited"
-RELEASE=1
+RELEASE="beta3"
 PACKAGER="Nick Bailey - nick@riptano.com"
 DOC_FILES="PKG-INFO, LICENSE"
 REQUIRES=""

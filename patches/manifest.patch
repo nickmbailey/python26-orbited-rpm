@@ -1,5 +1,13 @@
---- a/MANIFEST.in	1970-01-01 00:00:00.000000000 +0000
-+++ b/MANIFEST.in	2010-12-23 21:44:23.000000000 +0000
-@@ -0,0 +1,2 @@
+diff -ur orbited-0.7.11beta3/MANIFEST.in orbited-0.7.11beta3-new/MANIFEST.in
+--- a/MANIFEST.in	2011-02-05 19:11:59.000000000 +0000
++++ b/MANIFEST.in	2011-08-26 16:22:39.000000000 +0000
+@@ -1,6 +1,7 @@
+ recursive-include orbited *
+ include orbited.cfg.example
 +include LICENSE
-+include orbited/static/*
+ include MANIFEST.inc
+ include NEWS
+ include README.testing
+-global-exclude .DS_Store *.hgignore *.hgtags *.pyc
+\ No newline at end of file
++global-exclude .DS_Store *.hgignore *.hgtags *.pyc
